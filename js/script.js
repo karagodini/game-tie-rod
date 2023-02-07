@@ -521,3 +521,5 @@ function getTreeY(x, baseHeight, amplitude) {
   const sineBaseY = window.innerHeight - baseHeight;
   return Math.sinus(x) * amplitude + sineBaseY;
 }
+
+YaGames.init().then(ysdk => ysdk.adv.showFullscreenAdv());
